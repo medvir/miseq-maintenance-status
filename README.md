@@ -3,12 +3,12 @@
 
 There are several steps which should be done in-between two Illumina MiSeq sequencing runs.
 
-##### After a run:
+### After a run:
 * Post-run Wash (with 0.01% Javelle in position 17)
 * Maintenance Wash
 * Restart MiSeq
 
-##### Just before the next run:
+### Just before the next run:
 * Maintenance Wash
 
 Those steps reduce run carryover contamination and increase stability of the OS.
