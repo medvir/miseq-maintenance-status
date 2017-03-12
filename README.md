@@ -19,14 +19,12 @@ This program was written in Python 3 with the GUI package [Tkinter]("https://doc
 
 ![](maintenance_status_screenshot.png "Example of a MiSeq Screen running the GUI")
 
-<!---
 ## Motivation
 
-The initial idea to create this project
+We have two Miseq sequencers from Illumina in our lab and several users for them. In order to keep track of the status of each sequencer this GUI was developed.  
+It should give the user a quck overview what has already been done and what still needs to be done before the next sequencing run.
 
-The goal of this GUI is to give the MiSeq users a quick overview what has already
-been done and what still needs to be done before the next sequencing run.
-
+<!---
 ## Usage
 *(Include description how to use it)*
 --->
@@ -38,11 +36,11 @@ Under Windows (**Python 3.4** and **PyInstaller** installed)
 pyinstaller -w -F -i maintenance_status.ico maintenance_status.py
 ```
 
-> `-w` "Do not provide a console window for standard i/o."
+> `-w` Do not provide a console window for standard i/o.
 
-> `-F` "Create a one-file bundled executable."
+> `-F` Create a one-file bundled executable.
 
-> `-i <FILE.ico>` "Apply that icon to a Windows executable."
+> `-i <FILE.ico>` Apply that icon to a Windows executable.
 
 
 
