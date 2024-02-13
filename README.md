@@ -26,7 +26,7 @@ We have two MiSeq sequencers from Illumina in our lab and several users for them
 It should give the user a quck overview what has already been done and what still needs to be done before the next sequencing run.
 
 ## Usage
-A shortcut to the software is located on the Desktop of the MiSeq sequencers (source path of .exe and .csv: C:\Users\subuser\Documents\maintenance_status).  
+A shortcut to the software is located on the Desktop of the MiSeq sequencers (source path of .exe and .csv: C:\Users\sbsUser\Documents\miseq-maintenance-status).  
 On the upper part of the GUI is a list with all steps. Each of them can be checked if they're completed. If you check a box, the current date appears in the entry-widget next to it (can also be manually changed).  
 
 Before you quit the GUI (e. g. for the restart) the current status should be saved ("Speichern"). There is only one status.csv file which is always overwritten. If you open the GUI again, the latest saved status can be retrieved by using the "Laden" button.  
